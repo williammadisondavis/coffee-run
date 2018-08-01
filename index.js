@@ -33,17 +33,18 @@ var makeOrder = function() {
     // console.log(flavorShot.value)
     var custFlavor = flavorShot.value
     
-    var myObj = {coffee: coffeeName, emailAddress: custEmail, size: custSize, flavor: custFlavor};
+    var order = {coffee: coffeeName, emailAddress: custEmail, size: custSize, flavor: custFlavor};
 
-    orderRow(myObj);
+    orderRow(order);
 
-    return myObj
+    return order
 };
 
 var orderRow = function(order) {
     var deleteButton = document.createElement('input')
     deleteButton.setAttribute('type', 'button')
-    deleteButton.setAttribute('value', 'Delete Order')
+    deleteButton.setAttribute('value', 'Remove Order')
+    deleteButton.setAttribute('class', 'DeleteButton')
     deleteButton.addEventListener('click', function(event) {
         deleteOrder(event, order.emailAddress)
     })

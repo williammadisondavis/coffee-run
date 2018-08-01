@@ -6,6 +6,44 @@ div {
     padding: 5px;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
 li {
     padding: 5px;
 }
+
+body {
+    display: block;
+    background-color: beige;
+}
+
+.coffee-order-form {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: pink;
+    border-radius: 50px;
+}
+
+.submit {
+/*    display: inline;*/
+    -webkit-appearance: none;
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    background-image: url(https://banner2.kisspng.com/20180219/uwe/kisspng-coffee-cup-cafe-clip-art-vector-coffee-cup-5a8b3b60d0a484.6449965415190741448546.jpg);
+    background-size: 130px 135px;
+    background-position: center -2px;
+}
+
+
+ul li {
+    border: 5px solid pink;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background-color: papayawhip;
+}
+

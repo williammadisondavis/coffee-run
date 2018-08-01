@@ -32,12 +32,14 @@ body {
     -webkit-appearance: none;
     height: 150px;
     width: 150px;
+    border: 4px solid darkgray;
     border-radius: 80px;
-    background-image: url(https://banner2.kisspng.com/20180219/uwe/kisspng-coffee-cup-cafe-clip-art-vector-coffee-cup-5a8b3b60d0a484.6449965415190741448546.jpg);
+    background-color: papayawhip;
+    background-image: url(coffee.png);
     background-size: 130px 135px;
-    background-position: center -2px;
+    background-position: center -5px;
+    box-shadow: 0px 0px 18px; 
 }
-
 
 ul li {
     border: 5px solid pink;
